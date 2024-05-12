@@ -5,9 +5,6 @@ const studentsUtils = require("./students");
 const yargs = require("yargs");
 //const { demandOption } = require('yargs');
 
-//console.log(chalk.blue('Hello'));
-//console.log(validator.isEmail('linamandlajojwana96@gmail.com'));
-
 yargs.command({
   command: "add",
   distription: "adding a student",
